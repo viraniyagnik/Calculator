@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Name: Yagnik Virani
+  Student ID :A00227162
+ -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <!-- Layout for screen to show number and result   -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView for screen to show number and result   -->
+            <TextView
+                android:id="@+id/screen1"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:background="#DFDA9C"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+         <!-- Layout for button equal and button clear   -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <!--  button equal to show result   -->
+            <Button
+                android:id="@+id/btneql"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:background="#EDCDCD"
+                android:text="="
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <!--  button equal to clear screen   -->
+            <Button
+                android:id="@+id/btnclear"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:background="#EDCDCD"
+                android:text="C"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+         <!--  Layout for buttons 1,2 and 3  -->
+        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+            <!--  button 1 for number 1 -->
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:background="#EDCDCD"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!--  button 2 for number 2 -->
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:background="#EDCDCD"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!--  button 3 for number 3 -->
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:background="#EDCDCD"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+            <!--  Layout for buttons 4,5 and 6  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <!--  button 4 for number 4 -->
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!--  button 5 for number 5 -->
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!--  button 6 for number 6 -->
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="6"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--  Layout for buttons 7,8 and 9  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <!--  button 7 for number 7 -->
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="7"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!--  button 8 for number 8 -->
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="8"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!--  button 9 for number 9 -->
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="9"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+             <!--  Layout for buttons .,0 and /  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <!--  button . for dot -->
+                <Button
+                    android:id="@+id/btnpoint"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!--  button 0 for number 0 -->
+                <Button
+                    android:id="@+id/b0"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!--  button / for division operation -->
+                <Button
+                    android:id="@+id/btndiv"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="/"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <!--  Layout for buttons +,- and *  -->
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+                <!--  button + for addition operation -->
+                <Button
+                    android:id="@+id/btnadd"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="+"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <!--  button - for subtraction operation -->
+                <Button
+                    android:id="@+id/btnsub"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <!--  button * for multiplication operation -->
+                <Button
+                    android:id="@+id/btnmul"
+                    android:layout_width="149dp"
+                    android:layout_height="match_parent"
+                    android:background="#EDCDCD"
+                    android:text="*"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+
+</LinearLayout>
+
